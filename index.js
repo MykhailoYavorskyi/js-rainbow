@@ -10,11 +10,16 @@ refs.form.addEventListener("submit", onSubmit);
 refs.clear.addEventListener("click", onClear);
 
 function onInput(e) {
+  if (!e.currentTarget.value) {
+    refs.text.classList.remove("rainbow");
+  }
   refs.text.textContent = e.currentTarget.value;
 }
 function onSubmit(e) {
   e.preventDefault();
-  refs.text.classList.add("rainbow");
+  if (refs.input.value) {
+    refs.text.classList.add("rainbow");
+  }
 }
 function onClear(e) {
   refs.text.classList.remove("rainbow");
