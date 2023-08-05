@@ -58,6 +58,11 @@ button {
   padding-bottom: 8px;
   padding-left: 16px;
 
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
+  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  background-color: #3498db;
+
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -70,10 +75,6 @@ button {
 }
 
 .main-button {
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
-  background-color: #3498db;
-  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
   background-size: 100% 100%;
   background-clip: border-box;
   -webkit-background-clip: border-box;
@@ -81,6 +82,8 @@ button {
 }
 
 .btn-clear {
-  font-weight: 500;
-  font-size: 16px;
+  background-size: 31% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
