@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  background-color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 .container {
   margin: 30px auto 0 auto;
@@ -22,6 +25,19 @@ body {
   margin: 0 auto 30px auto;
   width: 240px;
   height: 40px;
+
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 4px;
+  outline: none;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input:hover,
+.input:focus {
+  outline: 2px solid darkblue;
 }
 
 .text {
@@ -30,9 +46,8 @@ body {
   align-items: center;
   min-height: 300px;
   margin: 0 auto 30px auto;
-  font-family: "Ubuntu", sans-serif;
   font-size: 80px;
-  font-weight: bold;
+  font-weight: 700;
   color: #000;
   text-align: center;
   letter-spacing: 5px;
@@ -63,7 +78,7 @@ button {
   background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
   background-color: #3498db;
 
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
   text-align: center;
@@ -82,8 +97,13 @@ button {
 }
 
 .btn-clear {
-  background-size: 31% 100%;
+  background-size: 32% 100%;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+
+.main-button:focus,
+.btn-clear:focus {
+  outline: 2px solid darkblue;
 }
