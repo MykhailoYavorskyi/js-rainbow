@@ -20,6 +20,7 @@ body {
     width: 1440px;
   }
 }
+
 .input {
   display: block;
   margin: 0 auto 30px auto;
@@ -55,7 +56,7 @@ body {
 
 .rainbow {
   color: #ff0000;
-  text-shadow: 0 2px 2px #ff0000, -2px 5px 0 #ff7f00, -4px 10px 0 #ffff00, -8px 15px 0 #00ff00, -12px 20px 0 #0000ff, -16px 25px 0 #4b0082, -20px 30px 0 #9400d3;
+  text-shadow: -2px 5px 0 orange, -4px 10px 0 yellow, -8px 15px 0 green, -12px 20px 0 blue, -16px 25px 0 indigo, -20px 30px 0 #9400d3;
 }
 
 button {
@@ -75,7 +76,7 @@ button {
 
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
-  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  background-image: linear-gradient(to right, #9400d3, indigo, blue, green, yellow, orange, red);
   background-color: #3498db;
 
   font-family: "Montserrat", sans-serif;

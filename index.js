@@ -21,7 +21,7 @@ function onSubmit(e) {
     refs.text.classList.add("rainbow");
   }
 }
-function onClear(e) {
+function onClear() {
   refs.text.classList.remove("rainbow");
   refs.input.value = "";
   refs.text.textContent = "";
